@@ -11,7 +11,6 @@ public class InsertionSort {
   }
 
   public static int[] insertionSort(int[] input) {
-
     if( input == null || input.length < 2 ) { return input; }
 
     int length = input.length;
@@ -29,8 +28,6 @@ public class InsertionSort {
         }
       }
     }
-
-
     return input;
   }
 
